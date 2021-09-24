@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
 body{
-    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.item{
+    padding: 10px;
+}
+
+.item > *{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-img{
+    width: 300px;
 }
