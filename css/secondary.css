@@ -5,3 +5,48 @@
 *::after{
     box-sizing: border-box;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 98vh;
+
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.top-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.t_right-div{
+    width: 45%;
+}
+
+.bottom-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+}
+
+.home-btn{
+    border: 2px solid hsl(9, 100%, 64%);
+    padding: 5px 10px;
+
+    font-size: 1.5rem;
+    color: hsl(9, 100%, 64%);
+    text-decoration: none;
+
+    transition: all 200ms;
+}
+
+.home-btn:hover{
+    color: hsl(0, 0%, 0%);
+    background-color: hsl(9, 100%, 64%);
+}

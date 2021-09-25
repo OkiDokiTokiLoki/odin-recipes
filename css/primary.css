@@ -17,10 +17,14 @@ body{
     background-color: hsl(240, 32%, 8%);
 }
 
-h1{
+h1 > a{
     font-size: 2.5rem;
     color: hsl(34, 100%, 49%);
     padding-bottom: 50px;
+}
+
+h1 > a:hover{
+    color: hsl(180, 100%, 28%);
 }
 
 .container{
@@ -31,11 +35,11 @@ h1{
 .item{
     padding: 10px;
     border: 2px solid transparent;
-    transition: border 200ms;
+    transition: all 200ms;
 }
 
 .item:hover{
-    border: 2px solid hsl(34, 100%, 49%);
+    border: 2px solid hsl(180, 100%, 28%);
 }
 
 .item > *{
@@ -46,6 +50,10 @@ h1{
     color: hsl(34, 100%, 49%);
     font-size: 1.5rem;
     text-decoration: none;
+}
+
+.item > a:hover{
+    color: hsl(180, 100%, 28%);
 }
 
 a > img{
