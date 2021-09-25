@@ -1,4 +1,4 @@
-<h3>Odin Recipes</h3>
+<h3>Oh-din Recipes</h3>
 
 [Live demo](https://okidokitokiloki.github.io/odin-recipes/)
 
@@ -6,7 +6,8 @@
 This is a project proposed by The Odin Project as part of the foundations module with particular focus on html
 	
 ## Technologies
-Only html was used here (to date). Styling to come...
+This is a very simple program, done in a matter of minutes with very basic styling. More in depth styling to come...
 
 Project is (currently) created with:
 * HTML
+* CSS
