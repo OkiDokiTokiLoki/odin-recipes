@@ -36,17 +36,34 @@ body{
 }
 
 .home-btn{
+    position: relative;
+    isolation: isolate;
     border: 2px solid hsl(9, 100%, 64%);
     padding: 5px 10px;
-
+    background: 0;
     font-size: 1.5rem;
-    color: hsl(9, 100%, 64%);
     text-decoration: none;
-
-    transition: all 200ms;
+    line-height: inherit;
+    color:hsl(9, 100%, 64%);
+    transition: all 200ms linear;
 }
 
-.home-btn:hover{
+.home-btn:hover,
+.home-btn:focus{
     color: hsl(0, 0%, 0%);
-    background-color: hsl(9, 100%, 64%);
+}
+
+.home-btn::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: hsl(9, 100%, 64%);
+    transform: scale(1, 0);
+    transform-origin: center;
+    transition: transform 300ms ease;
+}
+
+.home-btn:hover::after{
+    transform: scale(1, 1);
 }
