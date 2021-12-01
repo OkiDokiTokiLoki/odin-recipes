@@ -1,13 +1,13 @@
-<h3>Oh-din Recipes</h3>
+<h3>Oh-din Destinations</h3>
 
 [Live demo](https://okidokitokiloki.github.io/odin-recipes/)
 
 ## General info
-This is a project proposed by The Odin Project as part of the foundations module with particular focus on html
+This is a project proposed by The Odin Project as part of the "Foundations" module. 
 	
 ## Technologies
 This is a very simple program, done in a matter of minutes with very basic styling.
 
-Project is (currently) created with:
+Project is created with:
 * HTML
 * CSS
